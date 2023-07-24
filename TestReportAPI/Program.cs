@@ -19,6 +19,7 @@ namespace TestReportAPI
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+            .UseUrls("http://*:52369")
                 .UseStartup<Startup>();
     }
 }

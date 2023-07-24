@@ -19,4 +19,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="reportData.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
